@@ -10,12 +10,11 @@ class Questions:
         self.question=question
 
 class Answers:
-    def __init__(self,answer_id,question_set_id,value,answer):
+    def __init__(self,answer_id,question_set_id,answer):
         self.answer_id=answer_id
         self.question_set_id=question_set_id
-        self.value=value
         self.answer=answer
 class Credentials:
-    def __init__(self,name,id):
-        self.user_name=name
+    def __init__(self,id,token):
+        self.token=token
         self.user_id=id
